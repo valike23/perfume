@@ -69,6 +69,24 @@
           <h6>
             Contact Us
           </h6>
+          <strong>Dubia Office</strong>
+          <div class="info_link-box">
+            <a href="">
+              <img src="images/location-white.png" alt="">
+              <span> Suite 16, Al Sudair Business Centre,
+                Al Khabeesi Buildings, Plot 490-0
+                Salahudeen Street, Opposite Danube Showroom 
+                Dubai, UAE</span>
+            </a>
+            <a href="tel:+971552135088">
+              <img src="images/call-white.png" alt="">
+              <span>+971552135088</span>
+            </a>
+            <!-- <a href="">
+              <img src="images/mail-white.png" alt="">
+              <span> demo123@gmail.com</span>
+            </a> -->
+          </div>
           <strong>Kenya</strong>
           <div class="info_link-box">
             <a href="">
