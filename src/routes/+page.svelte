@@ -1,73 +1,22 @@
 <script lang="ts">
-	import { onMount } from "svelte";
-	import Footer from "../lib/Footer.svelte";
+	import Header from "$lib/Header.svelte";
+import { onMount } from "svelte";
+	import Footer from "$lib/Footer.svelte";
 let win:any = {};
 
 onMount(()=>{
   win = window;
-  getYear();
+ 
 })
-  function openNav() {
-    win.document.getElementById("myNav").classList.toggle("menu_width")
-    win.document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
-}
-function getYear() {
-    var currentDate = new Date();
-    var currentYear = currentDate.getFullYear();
-    win.document.querySelector("#displayYear").innerHTML = currentYear;
-}
+
+
 
 
 </script>
 
 <div class="hero_area pt-5 ">
   <!-- header section strats -->
-  <header class="header_section">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="/">
-          <span>
-           <!-- svelte-ignore a11y-missing-attribute -->
-           <img class="logo" src="logo.png" />
-          </span>
-        </a>
-        <div class="" id="">
-          <div class="User_option">
-            <form class="form-inline my-2  mb-3 mb-lg-0">
-              <input type="search" placeholder="Search">
-              <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
-            </form>
-            <a href="/">
-              <img src="images/bag.png" alt="">
-            </a>
-          </div>
-
-          <div class="custom_menu-btn">
-            <button on:click={openNav}>
-              <span class="s-1">
-
-              </span>
-              <span class="s-2">
-
-              </span>
-              <span class="s-3">
-
-              </span>
-            </button>
-          </div>
-          <div id="myNav" class="overlay">
-            <div class="overlay-content">
-              <a href="/">Home</a>
-              <a href="/">About</a>
-              <a href="/">Products</a>
-              <a href="/">Blog</a>
-              <a href="/">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
+<Header></Header>
   <!-- end header section -->
   <!-- slider section -->
   <section class="slider_section">
@@ -288,14 +237,7 @@ function getYear() {
 
 
 
-<section class="container-fluid footer_section ">
-  <div class="container">
-    <p>
-      &copy; <span id="displayYear"></span> All Rights Reserved. Design by
-      <a href="https://valentine-emmanuel-ikechukwu.com">Valentine Emmanuel Ikechukwu</a>
-    </p>
-  </div>
-</section>
+
 
 
 <style>
