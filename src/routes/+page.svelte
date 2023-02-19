@@ -87,6 +87,54 @@ onMount(()=>{
     <div class="product_container">
       <div class="box">
         <div class="img-box">
+          <img src="images/products/blue_de_channel.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+          Blue De Channel
+          </h5>
+          <h4>
+            <span>$</span>100
+          </h4>
+          <a href="">
+            Buy Now
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="images/products/channel_chance.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+          Channel Chance
+          </h5>
+          <h4>
+            <span>$</span>100
+          </h4>
+          <a href="">
+            Buy Now
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="images/products/Dior_home.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>
+         Dior Home
+          </h5>
+          <h4>
+            <span>$</span>100
+          </h4>
+          <a href="">
+            Buy Now
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
           <img src="images/products/joanpaul.png" alt="">
         </div>
         <div class="detail-box">
