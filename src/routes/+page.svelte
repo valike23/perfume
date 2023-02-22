@@ -151,7 +151,7 @@ onMount(()=>{
       </div>
       <div class="box">
         <div class="img-box">
-          <img src="images/products/greed_adventus.png" alt="">
+          <img src="images/products/greed_adventus.jpg" alt="">
         </div>
         <div class="detail-box">
           <h5>
@@ -183,7 +183,7 @@ onMount(()=>{
       </div>
       <div class="box">
         <div class="img-box">
-          <img src="images/products/cocochanel.png" alt="">
+          <img src="images/products/cocochanel.jpg" alt="">
         </div>
         <div class="detail-box">
           <h5>
