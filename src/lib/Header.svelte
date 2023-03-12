@@ -52,7 +52,7 @@ onMount(()=>{
             <div class="overlay-content">
               <a href="/">Home</a>
               <a href="/">About</a>
-              <a href="/">Products</a>
+              <a href="/products">Products</a>
               <a href="/">Blog</a>
               <a href="/contact">Contact Us</a>
             </div>
