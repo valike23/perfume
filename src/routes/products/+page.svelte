@@ -37,7 +37,7 @@
 	<h1 class="text-center my-5">Product List</h1>
 	<div class="row">
 		{#each products as product}
-		<div class="col-md-4">
+		<div class="col-md-4 col-12">
 			<div class="card mb-4">
 				<img
 					src="{product.image}"
