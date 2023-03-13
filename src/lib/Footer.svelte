@@ -22,7 +22,7 @@
             </a>
           </div>
           <div>
-            <a href="">
+            <a href="https://instagram.com/oik_perfumes_dubai?igshid=ZDdkNTZiNTM=">
               <img src="images/instagram.png" alt="">
             </a>
           </div>
