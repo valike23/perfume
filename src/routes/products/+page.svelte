@@ -1,4 +1,4 @@
-<script lang="ts">
+<script >
 	import Bottom from '$lib/Bottom.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Header from '$lib/Header.svelte';
@@ -6,10 +6,9 @@
 	import { onMount } from 'svelte';
 	import axios from 'axios';
 	import { APPLICATION_URL } from '$lib/properties/init';
-	import type { Iproduct } from '$lib/properties/model';
 
 	let loader = true;
-	let products: Iproduct[] = [];
+	let products = [];
 
 	onMount(async () => {
 	try {
