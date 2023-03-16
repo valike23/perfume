@@ -36,10 +36,12 @@
             About OIK
           </h6>
           <p>
-            Introducing Oik Perfume, a Dubai-based company that offers a diverse range of luxurious fragrances 
-            for both men and women. Our perfumes are crafted with the finest ingredients and are designed to evoke 
-            a sense of elegance and sophistication.
-             Experience the captivating scents of Oik Perfume and elevate your everyday moments.
+            OIK Perfumes Ltd is a top fragrance company in Dubai, UAE. 
+            Our luxurious fragrances for men and women are crafted with the finest ingredients,
+             designed to boost morale, reduce stress, and enhance aromatherapy. Our products undergo 
+             rigorous scientific research, making us a world leader in fragrance manufacturing.
+              We're expanding our distribution channels to reach more people globally.
+             Discover the magic of OIK Perfumes and indulge in our exceptional fragrances.
              </p>
         </div>
         <div class="col-md-2 offset-lg-1">
