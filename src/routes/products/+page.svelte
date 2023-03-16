@@ -28,9 +28,7 @@
 {#if loader}
 	<Loading />
 {/if}
-<div class="hero_area pt-5 ">
-	<Header />
-</div>
+<Header></Header>
 
 <div class="container">
 	<h1 class="text-center my-5">Product List</h1>

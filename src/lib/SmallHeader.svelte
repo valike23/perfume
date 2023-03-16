@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import Nav from './Nav.svelte';
 
 	let win: any = {};
 
@@ -38,15 +39,7 @@
 							<span class="s-3" />
 						</button>
 					</div>
-					<div id="myNav" class="overlay">
-						<div class="overlay-content">
-							<a href="index.html">Home</a>
-							<a href="about.html">About</a>
-							<a href="product.html">Products</a>
-							<a href="blog.html">Blog</a>
-							<a href="contact.html">Contact Us</a>
-						</div>
-					</div>
+					<Nav/>
 				</div>
 			</nav>
 		</div>
